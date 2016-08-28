@@ -131,7 +131,7 @@ BOARD_VOLD_MAX_PARTITIONS := 40
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 
 # Init
-TARGET_UNIFIED_DEVICE := true
+#TARGET_UNIFIED_DEVICE := true
 
 # Properties (reset them here, include more in device if needed)
 TARGET_SYSTEM_PROP := $(COMMON_PATH)/system.prop
